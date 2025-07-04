@@ -1,0 +1,14 @@
+@media only screen and (max-width:1024px) {
+    .main form{
+        width: 90% !important;
+    }
+    *{
+        font-size: 5vw;
+    }
+    .greet .greeting{
+        width: 90% !important;
+    }
+    .greet .greeting span{
+        font-size: 5vw;
+    }
+}

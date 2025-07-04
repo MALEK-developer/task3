@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* form */
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main form{
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    background-color: rgba(255, 255, 255, 0.199);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main form input:focus{
+    border-top: 1px solid black !important;
+    border-right: 1px solid black !important;
+    border-bottom: 1px solid transparent !important;
+    border-left: 1px solid transparent !important;
+}
+
+.greet{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(back.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.greet .greeting{
+    height: 50vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.199);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    gap: 2vw;
+}
+
+.greet .greeting span{
+    font-size: 3vw;
+    font-weight: bold;
+}
